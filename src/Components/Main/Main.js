@@ -12,7 +12,7 @@ const Main = () => {
         <div className="">
             <article className="cf ph3 ph5-ns pv5">
                 <header className="fn fl-ns w-50-ns pr4-ns">
-                    <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+                    <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2 blue grow">
                     Skills & Experience
                     </h1>
                     <h2 className="f3 mid-gray lh-title">
@@ -22,7 +22,7 @@ const Main = () => {
                 </header>
                 <div className="fn fl-ns w-50-ns">
                     <p className="f5 lh-copy measure mt0-ns">
-                    <b className="f3">Everything</b> started since 2014 when i first googled "How to create a website", 
+                    <b className="f3 blue">Everything</b> started since 2014 when i first googled "How to create a website", 
                     this was the moment i've landed into HTML, for an instant it was astonishing,
                     few mounth later i jumped into javascript and that was much more exciting 
                     i literally fell in love with that language.

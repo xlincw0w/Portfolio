@@ -1,15 +1,17 @@
 import React from 'react';
 import './Header.css';
+import spider from '../../Images/spider.png';
 
 const Header = () => {
     return(
-        <div className="header">
+        <div className="header mb5">
         <header className="db bg-black-80 h-100 w-100">
             <div className="cover bg-left bg-center-l">
                 <div className="pb5 pb6-m pb7-l">
                 <nav className="dt w-100 mw8 center"> 
-                    <div className="dtc w2 v-mid pa3">
-                    <h1 className="white-80">xlincw0w</h1>
+                    <div className="w-30 dtc w2 v-mid pa3 pointer grow">
+                        <img src={spider} className="dib spider"/>
+                        <h1 className="dib white-80">xlincw0w</h1>
                     </div>
                     <div className="dtc v-mid tr pa3">
                     <a className="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >About</a> 
@@ -29,7 +31,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="tc nextlinkdiv">
-            <a href='' className="">
+            <a href='#mainpage'>
                 <span className="nextlink f1 mt5 pointer">
                 ☇
                 </span> 

@@ -10,10 +10,22 @@
 
 .nextlink {
     color: white;
+    transition-duration: 0.3s;
+}
+
+.nextlink:hover {
+    color: #0056b3;
 }
 
 .nextlinkdiv {
     margin-top: 15vh;
+}
+
+.spider {
+    width: 3vw;
+    height: 5vh;
+    padding-bottom: 0.5vh;
+    margin-right: 0.5vw;
 }
 
 @media screen and (max-height: 870px) {
