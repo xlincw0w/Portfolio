@@ -1,18 +1,61 @@
 import React from 'react';
 import './Inspiration.css';
+import Particles from 'react-particles-js';
 
 const Inspiration = () => {
+    const params = {
+	    "particles": {
+	        "number": {
+	            "value": 220,
+	            "density": {
+	                "enable": false
+	            }
+	        },
+	        "size": {
+	            "value": 3,
+	            "random": true,
+	            "anim": {
+	                "speed": 1,
+	                "size_min": 0.3
+	            }
+	        },
+	        "line_linked": {
+                "enable": false,
+	        },
+	        "move": {
+	            "random": true,
+	            "speed": 0.5,
+	            "direction": "top",
+	            "out_mode": "out"
+	        }
+	    },
+	    "interactivity": {
+	        "modes": {
+	            "bubble": {
+	                "distance": 250,
+	                "duration": 2,
+	                "size": 0,
+	                "opacity": 0
+	            },
+	            "repulse": {
+	                "distance": 400,
+	                "duration": 4
+	            }
+	        }
+	    }
+	}
     return (
         <div className="mt5">
             <article className="athelas">
-                <div className="mb7 drawimg vh-100 dt w-100 tc bg-dark-gray white cover">
+                <div className="mb5 drawimg vh-100 dt w-100 tc bg-dark-gray white cover">
                     <div className="dtc v-mid">
-                    <h1 className="f1 f-headline-l fw1 i white-60">xlincw0w</h1>
+                    <h1 className="f1 f-headline-l fw1 i black">xlincw0w</h1>
                     <blockquote className="ph0 mh0 measure f4 lh-copy center">
-                        <p className="fw1 white-70">
+                        <Particles className="mt5 mb5" params={params}></Particles>
+                        <p className="fw1 white-80">
                         Strategic planning centered around your consumers' intent. We never talk at our customers. We build with them.
                         </p>
-                        <cite className="f6 ttu tracked fs-normal">Khaled Khazem</cite>
+                        <cite className="f6 ttu tracked fs-normal pb7 white-60">Khaled Khazem</cite>
                     </blockquote>
                     </div>
                 </div>
