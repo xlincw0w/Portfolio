@@ -17,7 +17,7 @@ const Inspiration = () => {
                     </div>
                 </div>
                 <div className="center measure-wide f5 pv5 lh-copy ph2">
-                    <h1 className="f1 lh-title blue bb bw1 grow">Producing high quality responsive websites and exceptional user experience</h1>
+                    <h1 className="f1 lh-title blue bb bw1 grow">Building high quality responsive websites and exceptional UX</h1>
                     <p>
                     Let’s build results together. My team and I can help your company realize the true potential the Internet has to offer.
                     Research, advertising, and creative. We have the experience and drive to make it happen.
@@ -29,7 +29,7 @@ const Inspiration = () => {
                         <h1 className="blue center bb bw1 grow f1-l fw2">Why work with me ?</h1>
                         <p>There’s nothing I enjoy more than designing and building great websites.
                             I’ve come to figure out which types of projects I want to work on. Currently, 
-                            If you’re a small to medium sized business in need of a website refresh,
+                            If you’re a small to medium sized business in need of a website,
                             I’m more than sure I can help you out.</p>
                     </div>
                 </div>

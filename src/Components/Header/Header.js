@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="pb5 pb6-m pb7-l">
                 <nav className="dt w-100 mw8 center"> 
                     <div className="w-30 dtc w2 v-mid pa3 pointer grow">
-                        <img src={spider} className="dib spider"/>
+                        <img src={spider} alt="spider" className="dib spider"/>
                         <h1 className="dib white-80">xlincw0w</h1>
                     </div>
                     <div className="dtc v-mid tr pa3">
@@ -26,7 +26,7 @@ const Header = () => {
                                     I can help you build your next product.</h2>
                     <a className="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Hire me now !</a>
                     <span className="dib v-mid ph3 white-70 mb3">or</span>
-                    <a className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">Contact me</a>
+                    <a className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="/">Contact me</a>
                 </div>
                 </div>
             </div>
