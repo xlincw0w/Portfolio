@@ -13,7 +13,7 @@
     position: relative;
     animation: infinite;
     animation-name: nextlink;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-direction: reverse; 
 }
 
@@ -24,8 +24,16 @@
 
 @keyframes nextlink {
     0%   {left:0px; top:0px;}
-    75%  {left:0px; top:15px;}
-    100% {left:0px; top:0px;}
+    10%  {left:0px; top:20px;}
+    20% {left:0px; top:0px;}
+    30%  {left:0px; top:15px;}
+    40% {left:0px; top:0px;}
+    50% {left:0px; top:0px;}
+    60% {left:0px; top:0px;}
+    70% {left:0px; top:0px;}
+    80%  {left:0px; top:0px;}
+    90%  {left:0px; top:0px;}
+    100%  {left:0px; top:0px;}
   }
 
 .nextlink:hover {
