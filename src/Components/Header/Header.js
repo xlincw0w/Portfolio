@@ -33,7 +33,7 @@ const Header = () => {
             <div className="tc nextlinkdiv">
             <a href='#mainpage'>
                 <span className="nextlink f1 mt5 pointer">
-                ☇
+                ☇☇
                 </span> 
             </a>
             </div>

@@ -36,11 +36,11 @@ const Main = () => {
                 </div>
             </article>
             <div className="center">
-            <Container className="mt5 mb4">
+            <Container className="mt7 mb4">
                 <Row>
                     <Col xs={1} md={4}>
                     </Col> 
-                    <Col xs={1} md={4}>
+                    <Col className="ph5 bl br bw1 b--blue" xs={1} md={4}>
                     <Image src={khaled} roundedCircle />
                     </Col>   
                     <Col xs={1} md={4}>

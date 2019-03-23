@@ -3,7 +3,7 @@ import './Work.css';
 
 const Work = () => {
     return (
-        <div className="mt6 mb7" id="mainpage">
+        <div className="mt7 mb7" id="mainpage">
             <header className="tc ph4">
                 <h1 className="f3 f2-m f1-l fw2 blue w-30 center bb bw1 mv3 grow">How it works !</h1>
                 <div className="mt6">
