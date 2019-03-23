@@ -5,6 +5,7 @@ const Footer = () => {
     return (
         <div className="mt5 ">
             <footer className="Footer divtoanimate tc pv5 ph2 ph4-m ph5-l bg-white shadow-3 bt bw1 b--blue">
+                <h3 className="mb3 f1 textanimation">❖</h3>
                 <small className="f5 db tc black">© 2019 <b className="ttu">xlincw0w</b>. All Rights Reserved</small>
                 <div className="mt4">
                     <a className="link black hover-blue dib mh3 tc" href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
