@@ -8,18 +8,30 @@
     overflow-y: hidden;
 }
 
+.nextlinkdiv {
+    margin-top: 15vh;
+    position: relative;
+    animation: infinite;
+    animation-name: nextlink;
+    animation-duration: 1s;
+    animation-direction: reverse; 
+}
+
 .nextlink {
     color: white;
     transition-duration: 0.3s;
 }
 
+@keyframes nextlink {
+    0%   {left:0px; top:0px;}
+    75%  {left:0px; top:15px;}
+    100% {left:0px; top:0px;}
+  }
+
 .nextlink:hover {
     color: #0056b3;
 }
 
-.nextlinkdiv {
-    margin-top: 15vh;
-}
 
 .spider {
     width: 3vw;

@@ -3,9 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="mt5">
-            <footer className="Footer tc pv5 ph2 ph4-m ph5-l bg-white shadow-3">
-                <small className="f5 db tc black">© 2019 <b className="ttu">xlincw0w Inc</b>. All Rights Reserved</small>
+        <div className="mt5 ">
+            <footer className="Footer divtoanimate tc pv5 ph2 ph4-m ph5-l bg-white shadow-3 bt bw1 b--blue">
+                <small className="f5 db tc black">© 2019 <b className="ttu">xlincw0w</b>. All Rights Reserved</small>
                 <div className="mt4">
                     <a className="link black hover-blue dib mh3 tc" href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
                         <svg className="dib h2 w2" fill="currentColor" viewBox="0 0 16 16"><path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.476-1.195 1.176v1.54h2.39l-.31 2.416h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0"/></svg>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <span className="f6 db">GitHub</span>
                     </a>
                 </div>
-                <h1 className="black-70 f3 f2-ns fw6 tl link dim dib pv3 mt2 mb4 mb0-l">
+                <h1 className="black-70 f3 f2-ns fw6 tl link dib pv3 mt2 mb4 mb0-l">
                   khaled.khazem@yahoo.com
                 </h1>
             </footer>

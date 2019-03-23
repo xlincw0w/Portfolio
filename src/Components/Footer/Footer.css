@@ -1,0 +1,14 @@
+.divtoanimate {
+    animation: infinite;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-direction: reverse; 
+}
+
+@keyframes animation {
+    0%   {border-color:#357edd;}
+    25%  {border-color:#357edd;}
+    50% {border-color:white;}
+    75% {border-color:#357edd;}
+    100% {border-color:#357edd;}
+}
