@@ -52,4 +52,10 @@
     .nextlinkdiv {
         margin-top: -20vh;
     }
-  }
+}
+
+@media screen and (max-width: 1100px) {
+    .spider {
+        display: none;
+    }
+}

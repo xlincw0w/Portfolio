@@ -1,11 +1,7 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import khaled from '../../Images/khaled.jpg';
-
-// import './Main.css';
+import './Main.css';
 
 const Main = () => {
     return (
@@ -29,24 +25,18 @@ const Main = () => {
                     </p>
                     <p className="f5 lh-copy measure">
                     Who am i ?, Alright since i've got my baccalaureate in mathematics field, i signed up in Mouloud Mammeri
-                    Tizi-Ouzou and i'm still there for finishing my course in computer science domain
+                    Tizi-Ouzou university and i'm still there for finishing my course in computer science domain
                     i'm a guy who was completely addictive to video games like Counter Strike
                     but for now i spent my time more coding and learning then anything else.
                     </p>
                 </div>
             </article>
-            <div className="center">
-            <Container className="mt7 mb4">
-                <Row>
-                    <Col xs={1} md={4}>
-                    </Col> 
-                    <Col className="ph5 bl br bw1 b--blue" xs={1} md={4}>
-                    <Image src={khaled} roundedCircle />
-                    </Col>   
-                    <Col xs={1} md={4}>
-                    </Col>                
-                </Row>
-            </Container>
+            <div className="disapear center">
+            <div className="mt7 mb4">
+                    <div className="tc ph5 mh7 bl br bw2 b--blue">
+                    <Image className="ba bw1 b--blue" src={khaled} roundedCircle />
+                    </div>             
+            </div>
             </div>
         </div>
     )

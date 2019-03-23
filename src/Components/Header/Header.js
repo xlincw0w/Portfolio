@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="pb5 pb6-m pb7-l">
                 <nav className="dt w-100 mw8 center"> 
                     <div className="w-30 dtc w2 v-mid pa3 pointer grow">
-                        <img src={spider} alt="spider" className="dib spider"/>
+                        <img src={spider} alt="spider" className="spider"/>
                         <h1 className="dib white-80">xlincw0w</h1>
                     </div>
                     <div className="dtc v-mid tr pa3">
