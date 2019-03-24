@@ -16,8 +16,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => { 
   return {
+  NavigateToHome: (event) => dispatch(Navigate('home')),
   NavigateToAbout: (event) => dispatch(Navigate('about')),
-  NavigateToCareers: (event) => dispatch(Navigate('careers')),
+  NavigateToJourney: (event) => dispatch(Navigate('journey')),
   NavigateTopricing: (event) => dispatch(Navigate('pricing')),
   NavigateToHireMe: (event) => dispatch(Navigate('hireme')),
   NavigateToContact: (event) => dispatch(Navigate('contact')) 
@@ -28,8 +29,9 @@ class App extends Component {
   render() {
     const { 
       render,
+      NavigateToHome,
       NavigateToAbout,
-      NavigateToCareers,
+      NavigateToJourney,
       NavigateTopricing,
       NavigateToHireMe,
       NavigateToContact
@@ -38,8 +40,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header 
+        render={render}
+        NavigateToHome={NavigateToHome}
         NavigateToAbout={NavigateToAbout}
-        NavigateToCareers={NavigateToCareers}
+        NavigateToJourney={NavigateToJourney}
         NavigateTopricing={NavigateTopricing}
         NavigateToHireMe={NavigateToHireMe}
         NavigateToContact={NavigateToContact}
