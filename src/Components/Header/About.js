@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
 const About = ( { NavigateToHome, render } ) => {
@@ -13,22 +12,24 @@ const About = ( { NavigateToHome, render } ) => {
 
     return(
         <Dialog
+            fullWidth={true}
+            maxWidth={"lg"}
             open={display}
-            onClose={() => {console.log("canceled")}}
-            aria-labelledby="alert-dialog-title"
-            aria-describedby="alert-dialog-description"
             >
-            <DialogTitle id="alert-dialog-title">{"Use Google's location service?"}</DialogTitle>
+            <DialogTitle id="alert-dialog-title">{<p className="blue">Here is the exciting part, ABOUT ME !</p>}</DialogTitle>
             <DialogContent>
-                <DialogContentText id="alert-dialog-description">
-                Let Google help apps determine location. This means sending anonymous location data to
-                Google, even when no apps are running.
-                Google, even when no apps are running.
-                Google, even when no apps are running.
-                Google, even when no apps are running.
-                Google, even when no apps are running.
-                Google, even when no apps are running.
-                </DialogContentText>
+            <div className="pa4">
+                <blockquote className="athelas ml0 mt0 pl4 black-90 bl bw2 b--blue">
+                    <p className="f5 f4-m f3-l lh-copy measure mt0">
+                    Discipline in typography is a prime virtue. Individuality
+                    must be secured by means that are rational. Distinction
+                    needs to be won by simplicity and restraint. It is equally
+                    true that these qualities need to be infused wiht a
+                    certain spirit and vitality, or they degenerate into
+                    dullness and mediocrity.
+                    </p>
+                </blockquote>
+            </div>
             </DialogContent>
             <DialogActions>
                 <Button onClick={NavigateToHome} color="primary">
