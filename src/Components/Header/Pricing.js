@@ -13,10 +13,10 @@ const Pricing = ( { NavigateToHome, render } ) => {
 
     return(
         <Dialog
+            fullWidth={true}
+            maxWidth={"lg"}
             open={display}
             onClose={() => {console.log("canceled")}}
-            aria-labelledby="alert-dialog-title"
-            aria-describedby="alert-dialog-description"
             >
             <DialogTitle id="alert-dialog-title">{"Use Google's location service?"}</DialogTitle>
             <DialogContent>
