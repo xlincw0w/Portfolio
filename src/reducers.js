@@ -2,7 +2,7 @@ import { NAVIGATION } from './actions';
 import { combineReducers } from 'redux'
 
 const initialState = {
-    render: 'home'
+    render: 'home',
   }
 
 function FirstReducer(state = initialState, action) {

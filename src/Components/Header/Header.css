@@ -8,6 +8,21 @@
     overflow-y: hidden;
 }
 
+.link {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .link:hover,
+  .link:focus {
+  text-decoration: none;
+  }
+
 .nextlinkdiv {
     margin-top: 15vh;
     position: relative;

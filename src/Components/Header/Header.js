@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import spider from '../../Images/spider.png';
 
-const Header = () => {
+const Header = ( {NavigateToAbout, NavigateToCareers, NavigateTopricing, NavigateToHireMe, NavigateToContact} ) => {
     return(
         <div className="header mb5">
         <header className="db bg-black-80 h-100 w-100">
@@ -14,19 +14,19 @@ const Header = () => {
                         <h1 className="dib white-80">xlincw0w</h1>
                     </div>
                     <div className="dtc v-mid tr pa3">
-                    <a className="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >About</a> 
-                    <a className="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >Careers</a> 
-                    <a className="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >Pricing</a> 
-                    <a className="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/" >Hire me</a> 
+                    <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToAbout}>About</button> 
+                    <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToCareers}>Careers</button> 
+                    <button className="link f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" onClick={NavigateTopricing}>Pricing</button> 
+                    <button className="link f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" onClick={NavigateToHireMe}>Hire me</button> 
                     </div>
                 </nav> 
                 <div className="tc-l mt4 mt5-m mt6-l ph3">
                     <h1 className="f2 f2-l fw2 white-90 mb0 lh-title">Hi, i'm Khaled Khazem</h1>
                     <h2 className="fw1 f3 white-80 mt3 mb4">I'm a web developer from Algeria.
                                     I can help you build your next product.</h2>
-                    <a className="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Hire me now !</a>
+                    <button className="link f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" onClick={NavigateToHireMe}>Hire me now !</button>
                     <span className="dib v-mid ph3 white-70 mb3">or</span>
-                    <a className="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="/">Contact me</a>
+                    <button className="link f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" onClick={NavigateToContact}>Contact me</button>
                 </div>
                 </div>
             </div>
