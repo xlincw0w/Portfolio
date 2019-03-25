@@ -21,7 +21,7 @@ const Contact = ( { NavigateToHome, render } ) => {
             <main className="pa4 black-80">
                 <form className="measure center">
                     <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-                    <legend className="f3 blue fw6 ph0 mh0">Any idea? Contact me</legend>
+                    <legend className="f3 blue fw6 ph0 mh0">Want to know more? Contact me</legend>
                     <div className="mt3">
                         <label className="db fw6 lh-copy f6" >Full name</label>
                         <input className="pa2 input-reset ba bg-transparent hover-black w-100" type="email" name="email-address"  id="email-address" />
