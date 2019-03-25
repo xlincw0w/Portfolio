@@ -3,12 +3,14 @@ import './Header.css';
 import Home from './Home';
 import About from './About';
 import Journey from './Journey';
-import Pricing from './Pricing';
+import Projects from './Projects';
+import Hire from './Hire';
+import Contact from './Contact';
 import spider from '../../Images/spider.png';
 
 
 
-const Header = ( {render, NavigateToHome, NavigateToAbout, NavigateToJourney, NavigateTopricing, NavigateToHireMe, NavigateToContact} ) => {
+const Header = ( {render, NavigateToHome, NavigateToAbout, NavigateToJourney, NavigateToProjects, NavigateToHireMe, NavigateToContact} ) => {
 
 
     return(
@@ -22,17 +24,19 @@ const Header = ( {render, NavigateToHome, NavigateToAbout, NavigateToJourney, Na
                                 <h1 className="dib white-80">xlincw0w</h1>
                             </div>
                             <div className="dtc v-mid tr pa3">
-                                <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToAbout}>About</button> 
+                                {/* <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToAbout}>About</button>  */}
                                 <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToJourney}>Journey</button> 
-                                <button className="link f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" onClick={NavigateTopricing}>Pricing</button> 
+                                <button className="link f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" onClick={NavigateToProjects}>Projects</button> 
                                 <button className="link f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" onClick={NavigateToHireMe}>Hire me</button> 
                             </div>
                         </nav>
                         <div>
                             <Home NavigateToHireMe={NavigateToHireMe} NavigateToContact={NavigateToContact}/>
-                            <About NavigateToHome={NavigateToHome} render={render} />
+                            {/* <About NavigateToHome={NavigateToHome} render={render} /> */}
                             <Journey NavigateToHome={NavigateToHome} render={render} />
-                            <Pricing NavigateToHome={NavigateToHome} render={render} />
+                            <Projects NavigateToHome={NavigateToHome} render={render} />
+                            <Hire NavigateToHome={NavigateToHome} render={render} />
+                            <Contact NavigateToHome={NavigateToHome} render={render} />
                         </div>
                     </div>
                 </div>

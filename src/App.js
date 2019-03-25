@@ -19,7 +19,7 @@ const mapDispatchToProps = (dispatch) => {
   NavigateToHome: (event) => dispatch(Navigate('home')),
   NavigateToAbout: (event) => dispatch(Navigate('about')),
   NavigateToJourney: (event) => dispatch(Navigate('journey')),
-  NavigateTopricing: (event) => dispatch(Navigate('pricing')),
+  NavigateToProjects: (event) => dispatch(Navigate('projects')),
   NavigateToHireMe: (event) => dispatch(Navigate('hireme')),
   NavigateToContact: (event) => dispatch(Navigate('contact')) 
   }
@@ -32,7 +32,7 @@ class App extends Component {
       NavigateToHome,
       NavigateToAbout,
       NavigateToJourney,
-      NavigateTopricing,
+      NavigateToProjects,
       NavigateToHireMe,
       NavigateToContact
     } = this.props;
@@ -44,7 +44,7 @@ class App extends Component {
         NavigateToHome={NavigateToHome}
         NavigateToAbout={NavigateToAbout}
         NavigateToJourney={NavigateToJourney}
-        NavigateTopricing={NavigateTopricing}
+        NavigateToProjects={NavigateToProjects}
         NavigateToHireMe={NavigateToHireMe}
         NavigateToContact={NavigateToContact}
         />
