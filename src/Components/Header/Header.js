@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import Home from './Home';
-import About from './About';
 import Journey from './Journey';
 import Projects from './Projects';
 import Hire from './Hire';
@@ -24,10 +23,9 @@ const Header = ( {render, NavigateToHome, NavigateToAbout, NavigateToJourney, Na
                                 <h1 className="dib white-80">xlincw0w</h1>
                             </div>
                             <div className="dtc v-mid tr pa3">
-                                {/* <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToAbout}>About</button>  */}
-                                <button className="link f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" onClick={NavigateToJourney}>Journey</button> 
-                                <button className="link f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" onClick={NavigateToProjects}>Projects</button> 
-                                <button className="link f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" onClick={NavigateToHireMe}>Hire me</button> 
+                                <button className="linkWithoutBorder f6 fw4 hover-white white-70 dn dib-l pv2 ph3 pointer" onClick={NavigateToJourney}>Journey</button> 
+                                <button className="linkWithoutBorder f6 fw4 hover-white white-70 dn dib-ns pv2 ph3 pointer" onClick={NavigateToProjects}>Projects</button> 
+                                <button className="link f6 fw4 hover-white white-70 dib ml2 pv2 ph3 ba pointer" onClick={NavigateToHireMe}>Hire me</button> 
                             </div>
                         </nav>
                         <div>

@@ -10,18 +10,31 @@
 
 .link {
     background-color: transparent;
-    border: none;
-    cursor: pointer;
-    text-decoration: underline;
-    display: inline;
-    margin: 0;
-    padding: 0;
-  }
+}
   
-  .link:hover,
-  .link:focus {
+.link:hover,
+.link:focus {
   text-decoration: none;
-  }
+}
+
+.Hiremenow {
+    border: none;
+}
+  
+  .Hiremenow:hover,
+  .Hiremenow:focus {
+  text-decoration: none;
+}
+
+.linkWithoutBorder {
+    background-color: transparent;
+    border: none;
+}
+  
+  .linkWithoutBorder:hover,
+  .linkWithoutBorder:focus {
+  text-decoration: none;
+}
 
 .spider {
     width: 3vw;
