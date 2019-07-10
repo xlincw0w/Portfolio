@@ -49,7 +49,6 @@ const Inspiration = () => {
             <article className="athelas">
                 <div className="mb5 drawimg vh-100 dt w-100 tc bg-dark-gray white cover">
                     <div className="dtc v-mid">
-                    <h1 className="f1 f-headline-l fw1 i black">xlincw0w</h1>
                     <blockquote className="ph0 mh0 measure f4 lh-copy center">
                         <Particles className="mt5 mb5" params={params}></Particles>
                         <p className="fw1 white-80">

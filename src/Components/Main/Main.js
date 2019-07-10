@@ -34,7 +34,7 @@ const Main = () => {
             <div className="disapear center">
             <div className="mt7 mb4">
                     <div className="tc ph5 mh7 bl br bw2 b--blue">
-                    <Image className="ba bw1 b--blue" src={khaled} roundedCircle />
+                    <Image className="ba bw1 b--blue" src={khaled} />
                     </div>             
             </div>
             </div>

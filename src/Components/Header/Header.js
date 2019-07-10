@@ -20,7 +20,6 @@ const Header = ( {render, NavigateToHome, NavigateToAbout, NavigateToJourney, Na
                         <nav className="dt w-100 mw8 center"> 
                             <div onClick={NavigateToHome} className="w-30 dtc w2 v-mid pa3 pointer grow">
                                 <img src={spider} alt="spider" className="spider"/>
-                                <h1 className="dib white-80">xlincw0w</h1>
                             </div>
                             <div className="dtc v-mid tr pa3">
                                 <button className="linkWithoutBorder f6 fw4 hover-white white-70 dn dib-l pv2 ph3 pointer" onClick={NavigateToJourney}>Journey</button> 
